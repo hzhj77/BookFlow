@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  BookFlow
+//
+//  Created by chenlong on 2017/5/26.
+//  Copyright © 2017年 chenlong. All rights reserved.
+//
+
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define ScreenWidth [[UIScreen mainScreen] bounds].size.width
+#define ScreenHeight [[UIScreen mainScreen] bounds].size.height
+#define ScreenFrame [[UIScreen mainScreen] bounds]
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+#import "UIView+Frame.h"
+#import "UIColor+RGB.h"
+
+#import "CLViewController.h"
+
+#endif /* PrefixHeader_pch */
